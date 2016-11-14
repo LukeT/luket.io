@@ -1,0 +1,110 @@
+.project {
+    background: #FFF;
+    color: #FFF;
+    padding-bottom: 30px;
+    background: #3b5da6;
+    padding-top: 30px;
+    overflow: hidden;
+
+    &__left {
+        flex: 1 60%;
+        padding: 30px;
+    }
+    
+    &__right {
+        flex: 1 40%;
+        padding: 30px;
+        align-self: center;
+
+        img {
+            box-shadow: 0px 0px 47px -3px rgba(26,26,26,1);
+            width: 100%;
+        }
+    }
+    
+    h3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        i {
+            font-size: 2em;
+            line-height: 0;
+        }
+
+        span {
+            flex: 1;
+            display: block;
+            padding-left: 10px;
+            color: #FFF;
+            font-size: 1.2em;
+            line-height: 37px;
+        }
+    }
+
+    h4 {
+        font-weight: bold;
+        padding: 10px 0;
+    }
+
+    h5 {
+        margin-top: 5px;
+        font-size: 0.9em;
+        padding: 10px 0 5px;
+    }
+
+    a {
+        font-weight: bold;
+        color: #FFF;
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+
+
+        > h3 {
+            flex: 1;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 0px 10px;
+            line-height: 37px;
+            background-color: rgba(255, 255, 255, 0.21);
+            color: #fff;
+            border-radius: 2px;
+            transition: all 200ms ease-in-out;
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.31);
+            }
+        }
+    }
+
+    .wrapper {
+        > #streamjar .project__left {
+            background: #503a60;
+        }
+
+        > #smallurl .project__left {
+            background: #1c7ab8;
+        }
+
+        > #cwicsounds .project__left {
+            background: #cb0101;
+        }
+
+        > div {
+            display: flex;
+            flex-direction: row;
+            // border-left: 2px solid #fff;
+            font-family: "Open Sans", sans-serif;
+        }
+    }
+}

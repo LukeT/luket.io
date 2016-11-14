@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/luket
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://luket.io
+  * I am luket (https://keybase.io/luket) on keybase.
+  * I have a public key with fingerprint DCD1 5831 55B0 3B44 7E4D  6449 8533 9077 F136 C2DB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015db0f0def7b957f03afc6892b71152986a0c840491ece7377fe99634001850870a",
+            "fingerprint": "dcd1583155b03b447e4d644985339077f136c2db",
+            "host": "keybase.io",
+            "key_id": "85339077f136c2db",
+            "kid": "01015db0f0def7b957f03afc6892b71152986a0c840491ece7377fe99634001850870a",
+            "uid": "41550fce467a9995f5b012477dd22319",
+            "username": "luket"
+        },
+        "revoke": {
+            "sig_ids": [
+                "b57b08917e03b6805ab91f904e5b3f6dd893229c4d26afab18b39aec3cfbf03a0f"
+            ]
+        },
+        "service": {
+            "hostname": "luket.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1477910717,
+    "expire_in": 157680000,
+    "prev": "73923353f566dc64e452b0177d81fbd8681fa3913345e565b056360c3b2390c4",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMJrAnicrZJfaBRHHMcvagyJKAFz+FJFB6ExpjqzM7Ozcwqt0koIRdSWEknSc2dn
+Nrckvb3sba5JNWnUkkgCGsF/IC0UY1L64P+m2tA0sSmxVbFt6KEPCqISaFXwQVtM
+a51NW+hDHzsvwwzf3+f3/X1nxufPjpUUvDSybsOCOw+OFVwee9ASq1m09MvtQPiy
+DSS2g0Y1s6kmqbJhstGTIAEggohKAV0olcsEp8yF2HYd0+KGYAhRg1umDR2LQMKR
+chTDjLmKcxMTCJFFocWgDSqB66UbVJAJvHSosdKRiFoYUSogFoQwRaRJCLcoxhxq
+AsKmY0ihC1N+NqrQ5oSdVas8X9/pQ3LG3n/o/2ffLTM4op1C11HEZDbnnLraNzII
+Y1IaBkY8EmZVkLbfUVrd1NKoQtBeCQKV8xtVFGrWa9COsyBRCwRlAlocMaVHNy1I
+bcGRyyFRVGDXlNLi2DC4Q6Rh2q4tkCUwt5WDHVdEQ0AX1Gu2bpfznBl4FNG/W/8V
+UibwQ9/xm/RtKgwz2UTkKGzLRLJ3lUj+DUgKLy314+iKnAqynp8GCaSVTuhFRKSH
+5AgyxCqBas14gUp6kYIybV2vqI/KaSTD3MCYYpeapnRMogg1dEg6Igu5Qlqm3mzM
+EcaEKmrqAKmJTehgYegndAiIRmpO+5qtoaHdoJk6tbQdtgQKtF8crZsTKyiJzS2c
+Ff3aWElx6T9/+eTVoj9KB75N/f5jHCw7v2f9wfwETH+ze8ee7wZX4/33Snurb83r
+udE9fkHc3N81vOnGxrLXJvNnr4vit7p7g9aR+MgLs4eC1IkPH+f2blvTv7bsp8Jd
+4kr52PTWc3W/br6crH19Kpi8+mZisMx4QkqfkJenk97R/KGK3Z/Pi9PqHa/Ef/u0
+5kD/059XHNv6w2j/mo6KzvJ87/TiZ8cHf+kbjjffXVBTVfNnH/vq2vePmlo/+eLS
++/fxw0NVl+Lnhz5ue3RyaPmLh+F7Fz4YX/f1Z2d2LsHL9x3pOd214aNXr4COxWvf
+yE9twadW4uLrffPrp5ondz2teLYw9fbdbZ0TnfeMRNGt20bXQOLarN7nIwVYvA==
+=DkNX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/luket
+
+==================================================================
+

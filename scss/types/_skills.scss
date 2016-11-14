@@ -1,0 +1,90 @@
+.skills {
+    background: #FFF;
+    margin-top: -15px;
+    padding-bottom: 50px;
+    > div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__left {
+        flex: 0 60%;
+        padding: 0 10px;
+
+        h4 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-left: 5px;
+        }
+        > div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+
+            > div {
+                padding: 10px 15px;
+                background: linear-gradient(135deg, #2d4d6b 0%, #204c71 33%, #1b4f7d 64%, #40729c 100%);
+                font-weight: bold;
+                color: #e3e3e3;
+                margin: 5px;
+            }
+        }
+    }
+
+    &__right {
+        flex: 0 40%;
+        padding: 0 15px;        
+    }
+
+    .graph {
+        &__item {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 10px 0;
+
+            span {
+                display: block;
+                width: 30%;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    left: 0;
+                    bottom: 9px;
+                    width: 10%;
+                    height: 2px;
+                    background: #2b5dac;
+                    margin-top: 3px;
+                }
+            }
+
+            &_holder {
+                width: 70%;
+                height: 18px;
+                /* background: #f00; */
+                border-radius: 7px;
+                border: 2px solid #f1f1f1;
+                overflow: hidden;
+
+                > div {
+                    @keyframes move {
+                        0% { width: 0; }
+                    }
+                    
+                    &.animated {
+                        animation: move 2s;
+                    }
+
+                    height: 14px;
+                    border-bottom-right-radius: 7px;
+                    border-top-right-radius: 7px;
+                    overflow: hidden;
+
+                    background: linear-gradient(135deg, #041630 0%,#072b4d 33%,#1b4f7d 64%,#40729c 100%)
+                }
+            }
+        }
+    }
+}

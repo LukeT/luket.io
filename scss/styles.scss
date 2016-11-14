@@ -1,0 +1,83 @@
+@import 'fontTemplate';
+
+$colour: #2b5dac;
+$colourDark: #3155a2;
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: $colourDark;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+@import 'types/header';
+
+
+footer {
+	background: #FFF;
+}
+
+
+
+@media (max-width: 750px) {
+    .skills__right {
+        display: block !important;
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    #who .wrapper {
+        flex-direction: column !important;
+    }
+
+    .project .wrapper > div {
+        flex-direction: column !important;
+    }
+
+    .skills .wrapper {
+        flex-direction: column;
+    }
+
+    .project__header {
+        flex-direction: column !important;
+
+        a {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@import 'types/who';
+@import 'types/subheader';
+@import 'types/project';
+@import 'types/skills';
