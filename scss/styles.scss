@@ -1,7 +1,7 @@
 @import 'fontTemplate';
 
-$colour: #2b5dac;
-$colourDark: #3155a2;
+$colour: red;
+$colourDark: #15367c;
 
 html, body {
     padding: 0;
@@ -41,7 +41,17 @@ footer {
 	background: #FFF;
 }
 
+.leadText {
+    margin-top: 10vh;
+    opacity: 0.6;
+    color: #fff;
+    text-align: center;
 
+    a {
+        color: #FFF;
+        font-weight: bold;
+    }
+}
 
 @media (max-width: 750px) {
     .skills__right {
