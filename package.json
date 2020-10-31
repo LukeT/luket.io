@@ -4,18 +4,19 @@
   "description": "Personal Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-consolidate": "^0.2.0",
-    "gulp-iconfont": "^8.0.1",
-    "gulp-sass": "^2.3.2",
-    "lodash": "^4.16.4",
-    "run-sequence": "^1.2.2"
+    "gulp-iconfont": "^10.0.3",
+    "gulp-sass": "^4.1.0",
+    "lodash": "^4.17.20",
+    "run-sequence": "^2.2.1"
   }
 }
